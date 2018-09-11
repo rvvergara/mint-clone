@@ -98,3 +98,15 @@ a:hover {
 }
 
 /* Form Styles */
+
+.form-wrapper {
+    width: 318px;
+    height: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
