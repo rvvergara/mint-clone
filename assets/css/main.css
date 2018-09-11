@@ -1,58 +1,61 @@
 /* Generel Styles */
 html,
 body {
-    font-family: "Nunito", sans-serif;
-    background-color: #eceef1;
+  font-family: "Nunito", sans-serif;
+  background-color: #eceef1;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1280px;
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 /*Main Nav Styles*/
 .main-nav {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 .main-nav a {
-    text-decoration: none;
-    color: #008ad2;
-    font-size: 12px;
-    font-weight: 400;
+  text-decoration: none;
+  color: #008ad2;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .main-nav span {
-    color: #4c4c4c;
-    font-size: 12px;
-    font-weight: 400;
+  color: #4c4c4c;
+  font-size: 12px;
+  font-weight: 400;
 }
 
-.main-nav div>* {
-    margin-left: 10px;
+.main-nav div > * {
+  margin-left: 10px;
 }
 
 .main-nav button {
-    border: 1px solid #110e0e;
-    border-radius: 3px;
-    outline: none;
-    width: 100px;
-    padding: 0 20px;
-    height: 32px;
-    color: #fff;
-    background-color: #0077c5;
-    background-image: url("../images/icon-whitelock@3x.png");
-    background-repeat: no-repeat;
-    background-size: 12px;
-    background-position: 20% 50%;
-    text-align: right;
-    font-size: 13.5px;
+  border: 1px solid #110e0e;
+  border-radius: 3px;
+  outline: none;
+  width: 100px;
+  padding: 0 20px;
+  height: 32px;
+  color: #fff;
+  background-color: #0077c5;
+  background-image: url("../images/icon-whitelock@3x.png");
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: 20% 50%;
+  text-align: right;
+  font-size: 13.5px;
+}
+.main-nav-content {
+  text-align: center;
 }
