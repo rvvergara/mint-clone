@@ -51,8 +51,20 @@
                 <p>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></p>
             </header>
             <!-- Form Proper  -->
-            <form action="#" method="POST">
-
+            <form class="form-signup" action="#" method="POST">
+                <label class="form-signup-label" for="email">
+                    Email address
+                </label>
+                <input class="form-signup-input" type="email" name="email" id="email">
+                <label class="form-signup-label" for="phone">
+                    Phone (recommended)
+                </label>
+                <small>Standard call, messaging or data rates may apply.</small>
+                <input class="form-signup-input" type="tel" name="phone" id="phone" required>
+                <label class="form-signup-label" for="pass">
+                    Password
+                </label>
+                <input class="form-signup-input" type="password" name="pass" id="pass">
             </form>
             <!-- Form footer -->
             <footer class="form-footer">
