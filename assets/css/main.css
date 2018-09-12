@@ -1,123 +1,132 @@
 /* Generel Styles */
 html,
 body {
-    font-family: "Nunito", sans-serif;
-    background-color: #eceef1;
+  font-family: "Nunito", sans-serif;
+  background-color: #eceef1;
 }
 
 button:hover,
 a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1280px;
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 /*Main Nav Styles*/
 .main-nav {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 .main-nav a {
-    text-decoration: none;
-    color: #008ad2;
-    font-size: 12px;
-    font-weight: 400;
+  text-decoration: none;
+  color: #008ad2;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .main-nav span {
-    color: #4c4c4c;
-    font-size: 12px;
-    font-weight: 400;
+  color: #4c4c4c;
+  font-size: 12px;
+  font-weight: 400;
 }
 
-.main-nav div>* {
-    margin-left: 10px;
+.main-nav div > * {
+  margin-left: 10px;
 }
 
 .main-nav button {
-    border: 1px solid #110e0e;
-    border-radius: 3px;
-    outline: none;
-    width: 100px;
-    padding: 0 20px;
-    height: 32px;
-    color: #fff;
-    background-color: #0077c5;
-    background-image: url("../images/icon-whitelock@3x.png");
-    background-repeat: no-repeat;
-    background-size: 12px;
-    background-position: 20% 50%;
-    text-align: right;
-    font-size: 13.5px;
+  border: 1px solid #110e0e;
+  border-radius: 3px;
+  outline: none;
+  width: 100px;
+  padding: 0 20px;
+  height: 32px;
+  color: #fff;
+  background-color: #0077c5;
+  background-image: url("../images/icon-whitelock@3x.png");
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: 20% 50%;
+  text-align: right;
+  font-size: 13.5px;
 }
 
 .main-nav-content {
-    text-align: center;
+  text-align: center;
 }
 
 /* Main Header Styles */
 .main-logo {
-    width: 10%;
-    margin: 35px auto 0 auto;
-    padding: 20px;
+  width: 10%;
+  margin: 35px auto 0 auto;
+  padding: 20px;
 }
 
 .main-logo img {
-    width: 118px;
+  width: 118px;
 }
 
 /*Widget Styles*/
 .widgets {
-    margin: 0 auto;
-    width: 35%;
-    position: relative;
-    bottom: 15px;
-    left: 52px;
+  margin: 0 auto;
+  width: 35%;
+  position: relative;
+  bottom: 15px;
+  left: 52px;
 }
 
 .widgets ul li {
-    float: left;
-    padding: 5px;
-    margin-left: -5px;
+  float: left;
+  padding: 5px;
+  margin-left: -5px;
 }
 
 .widgets ul li:first-child {
-    position: relative;
-    bottom: 4px;
+  position: relative;
+  bottom: 4px;
 }
 
 /* Form Styles */
 
 .form-wrapper {
-    width: 318px;
-    height: 500px;
-    background-color: #fff;
-    margin: 0 auto;
-    position: relative;
-    top: 40px;
-    padding: 30px;
-    border: 1px solid #afabab;
-    border-radius: 3px;
+  width: 318px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  padding: 30px;
+  border: 1px solid #afabab;
+  border-radius: 3px;
 }
 
 .form-header {
-    width: 318px;
-    margin: 0 auto;
-    text-align: center;
+  width: 318px;
+  margin: 0 auto;
+  text-align: center;
+  color: #4c4c4c;
 }
-
-.form-header span {
-    display: inline-block;
-    width: 100%;
+.form-header h2 {
+  display: inline-block;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.form-header p {
+  font-size: 14px;
+}
+.form-header p a {
+  text-decoration: none;
+  color: #008ad2;
 }
