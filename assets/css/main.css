@@ -107,6 +107,17 @@ a:hover {
     position: relative;
     top: 40px;
     padding: 30px;
-    border: 1px solid grey;
+    border: 1px solid #afabab;
     border-radius: 3px;
+}
+
+.form-header {
+    width: 318px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-header span {
+    display: inline-block;
+    width: 100%;
 }
