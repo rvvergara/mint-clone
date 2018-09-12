@@ -52,19 +52,25 @@
             </header>
             <!-- Form Proper  -->
             <form class="form-signup" action="#" method="POST">
-                <label class="form-signup-label" for="email">
-                    Email address
-                </label>
-                <input class="form-signup-input" type="email" name="email" id="email">
-                <label class="form-signup-label" for="phone">
-                    Phone (recommended)
-                </label>
-                <small>Standard call, messaging or data rates may apply.</small>
-                <input class="form-signup-input" type="tel" name="phone" id="phone" required>
-                <label class="form-signup-label" for="pass">
-                    Password
-                </label>
-                <input class="form-signup-input" type="password" name="pass" id="pass">
+                <fieldset class="form-signup-field">
+                    <label class="form-signup-label" for="email">
+                        Email address
+                    </label>
+                    <input class="form-signup-input" type="email" name="email" id="email">
+
+                    <label class="form-signup-label" for="phone">
+                        Phone (recommended)
+                    </label>
+
+                    <input class="form-signup-input" type="tel" name="phone" id="phone" required>
+                    <small class="small-text">Standard call, messaging or data rates may apply.</small>
+
+                    <label class="form-signup-label" for="pass">
+                        Password
+                    </label>
+                    <input class="form-signup-input" type="password" name="pass" id="pass">
+                    <button type="submit" class="form-signup-btn">Create Account</button>
+                </fieldset>
             </form>
             <!-- Form footer -->
             <footer class="form-footer">
