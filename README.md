@@ -6,4 +6,4 @@
 
 <p>This project showcases the use of a <code>&lt;form&gt;</code> and its attributes.</p>
 
-<strong></strong><a href="https://rawgit.com/rvvergara/html-forms/features/footer/index.html">Live Demo</a></strong>
+<strong></strong><a href="https://rawgit.com/rvvergara/mint-clone/master/index.html">Live Demo</a></strong>
