@@ -13,39 +13,91 @@
 
 <body>
     <!-- Main Nav -->
-    <nav>
-
+    <nav class="main-nav">
+        <div class="right">
+            <div class="main-nav-content left">
+                <span>Already have an Intuit account?</span><br>
+                <a href="#">I forgot my User ID or Password</a>
+            </div>
+            <div class="nav-button right">
+                <button class="right">Sign In</button>
+            </div>
+        </div>
     </nav>
 
     <!-- Main Header -->
     <header class="main-header">
-
+        <div class="main-logo">
+            <a href="#"><img src="./assets/images/logo-2.JPG" alt="logo"></a>
+        </div>
     </header>
 
     <!-- Form Container -->
     <section class="wrapper">
         <!-- Widgets -->
-        <div class="widgets">
 
+        <div class="widgets">
+            <ul>
+                <li><a href="#"><img src="./assets/images/mint.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/quickbooks.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/turbotax.jpg" alt=""></a></li>
+            </ul>
         </div>
+
         <section class="form-wrapper">
             <!-- Form Header -->
             <header class="form-header">
-
+                <h2>One Account.<br> Everything Intuit.</h2>
+                <p>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></p>
             </header>
             <!-- Form Proper  -->
-            <form action="#" method="POST">
+            <form class="form-signup" action="#" method="POST">
+                <fieldset class="form-signup-field">
+                    <label class="form-signup-label" for="email">
+                        Email address
+                    </label>
+                    <input class="form-signup-input" type="email" name="email" id="email">
 
+                    <label class="form-signup-label" for="phone">
+                        Phone (recommended)
+                    </label>
+
+                    <input class="form-signup-input" type="tel" name="phone" id="phone" required>
+                    <small class="small-text">Standard call, messaging or data rates may apply.</small>
+
+                    <label class="form-signup-label" for="pass">
+                        Password
+                    </label>
+                    <input class="form-signup-input" type="password" name="pass" id="pass">
+                    <button type="submit" class="form-signup-btn">Create Account</button>
+                </fieldset>
             </form>
             <!-- Form footer -->
             <footer class="form-footer">
+                <small class="form-footer-text">
+                    By clicking Create Account, you agree to our
+                    <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
 
+                </small>
             </footer>
+            <div class="captcha">
+                <small class="captcha-text">
+                    Invisible reCAPTCHA by <a href="#">Google Privacy Policy</a> and <a href="#">Terms of Use</a>.
+                </small>
+            </div>
         </section>
     </section>
     <!-- Main Footer -->
-    <footer class="main-footer">
-
+    <footer class="wrapper main-footer">
+        <p>Mint bill pay services provided by Intuit Payments Inc. under applicable <a href="#">licenses</a>.</p>
+        <ul>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+        </ul>
+        <p>&copy 2018 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
 </body>
 
